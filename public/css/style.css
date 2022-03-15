@@ -1,0 +1,23 @@
+body {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 16px;
+}
+footer {
+    color : lightgray;
+    border-top: 1px solid lightgray;
+    margin: 10px 0;
+    padding: 1px;
+}
