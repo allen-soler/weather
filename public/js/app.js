@@ -1,5 +1,5 @@
 const weatherCB = (name) => {
-    fetch(`http://localhost:3000/weather?address=${name}`).then((response) => {
+    fetch(`/weather?address=${name}`).then((response) => {
         response.json().then((data) => {
             //let main = document.getElementById("container");
             let h1 = document.getElementById("location");
