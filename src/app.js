@@ -5,7 +5,7 @@ const geo = require('./utils/geo.js');
 const foreCast = require('./utils/forecast.js');
 
 const app = express();
-
+const port = process.env.PORT || 3000;
 //Define paths for express
 const pwd = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -92,6 +92,7 @@ app.get('*', (req, res) => {
     });
 })
 
-app.listen(3000, () => {
+//3k for localhost
+app.listen(port, () => {
     console.log('server is up on port 3000.');
 });
