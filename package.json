@@ -5,8 +5,22 @@
     "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.31"
   },
+  "name": "web-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  }
+    "start":"node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allen-soler/weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allen-soler/weather/issues"
+  },
+  "homepage": "https://github.com/allen-soler/weather#readme",
+  "description": ""
 }
